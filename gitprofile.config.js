@@ -2,62 +2,57 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'Ali-Fani', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'ali-fani',
+    twitter: 'alifani1377',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.github.io',
+    website: 'https://alifani.ir',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'contact@alifani.ir',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
+    'Django',
+    'Flask',
     'JavaScript',
-    'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Express.js',
+    'SQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Rayan Persis Co.',
+      position: 'Backend Developer',
+      from: 'July 2021',
+      to: 'October 2022',
+      companyLink: 'https://rayanpersis.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Bani Ertebat Sanat Rayan Co.',
+      position: 'Software Developer,IoT Intern',
+      from: 'June 2020',
+      to: 'December 2020',
+      companyLink: 'https://baniertebat.ir',
     },
   ],
   /* certifications: [
@@ -70,22 +65,22 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Sadjad University of Technology.',
+      degree: 'Masters in Software Engineering',
+      from: '2019',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Torbat Heydarieh Technical and Vocational School',
+      degree: 'Associate Degree in Information Technology',
+      from: '2016',
+      to: '2018',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
